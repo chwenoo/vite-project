@@ -1,0 +1,33 @@
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.todolist {
+    width: 400px;
+    text-align: left;
+}
+
+input {
+    padding: 16px 14px;
+    display: block;
+    width: calc(100% - 30px);
+    margin-bottom: 8px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #363636;
+    padding: 0 14px;
+    border: 1px solid rgb(71, 71, 71);
+}
+
+.content {
+    margin-top: 15px;
+}
+
+.delete {
+    margin-right: 8px;
+}
